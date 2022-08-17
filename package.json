@@ -5,8 +5,8 @@
   "author": "Huy Tran <kingbazoka@gmail.com>",
   "license": "BSD-3-Clause",
   "scripts": {
-    "dev": "cross-env  NODE_ENV=development parcel ./src/index.html",
-    "dist": "cross-env  NODE_ENV=production parcel build ./src/index.html --no-source-maps --public-url ./",
+    "dev": "cross-env NODE_ENV=development parcel ./src/index.html",
+    "dist": "cross-env NODE_ENV=production parcel build ./src/index.html --no-source-maps --public-url ./",
     "test": "ts-node node_modules/tape/bin/tape test/**/*.test.ts",
     "build": "tauri build",
     "tauri": "tauri"
